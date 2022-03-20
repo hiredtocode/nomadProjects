@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="src/style.css" />
+		<title>Final project</title>
+	</head>
+	<body id="background">
+		<div>
+			<h1 id="welcome">Welcome, please login first.</h1>
+			<form class="hidden" id="login-form">
+				<input
+					type="text"
+					maxlength="15"
+					placeholder="What is your name?"
+					required
+				/>
+				<input type="submit" value="Login" />
+			</form>
+			<h1 class="hidden" id="greetings"></h1>
+			<h1 id="clock"></h1>
+
+			<div id="weather"><span></span><span></span></div>
+			<div>
+				<form class="hidden" action="" id="todo-form">
+					<input
+						id="todoInput"
+						type="text"
+						placeholder="Write a todo and press enter"
+						required
+					/>
+				</form>
+			</div>
+			<ul id="todo-list"></ul>
+		</div>
+		<script src="src/login.js"></script>
+		<script src="src/clock.js"></script>
+		<script src="src/todo.js"></script>
+		<script src="src/background.js"></script>
+		<script src="src/weather.js"></script>
+	</body>
+</html>

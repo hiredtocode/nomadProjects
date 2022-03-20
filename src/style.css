@@ -1,0 +1,32 @@
+.hidden {
+	display: none;
+}
+
+.deletebtn {
+	margin-left: 10px;
+}
+
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+#todoInput {
+	width: 13em;
+	height: 2em;
+}
+
+#todo-list {
+	color: rgb(132, 0, 255);
+	font-size: 1.5em;
+}
+
+#todo-list span {
+	display: inline-block;
+	width: 10rem;
+}
+
+#weather {
+	font-size: 1.5rem;
+}
